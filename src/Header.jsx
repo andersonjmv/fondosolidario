@@ -4,6 +4,23 @@ import { Link } from 'react-router-dom';
 export const Header = () => {
   return (
     <div>
+       <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Modal Header</h4>
+            </div>
+            <div class="modal-body">
+              <p>Some text in the modal.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
       <div className="mobile-menu pos-bg">
         <nav className="mobile-header">
           <div className="header-logo">
@@ -53,15 +70,10 @@ export const Header = () => {
         <div className="header-area">
           <div className="container">
             <div className="primary-menu">
-              <div className="logo">
-                <a href="#header"><img src="assets/images/logo.png" alt="logo" /></a>
-              </div>
+              
               <div className="main-area">
                 <div className="main-menu">
                   <ul>
-                    <li><a href="#header">Inicio</a>
-
-                    </li>
                     <li><a href="#mas">Conocer más</a>
 
                     </li>
@@ -71,15 +83,19 @@ export const Header = () => {
                     <li><Link to="/2020">¿Cómo vamos?</Link>
 
                     </li>
-                    <Link to="/contacto"> <li>Contáctenos</li></Link>
+                     <li><Link to="/contacto">Contáctenos</Link></li>
                   </ul>
                 </div>
 
+              </div>
+              <div className="logo">
+                <Link to="/"><img src="assets/images/logo.png" alt="logo" /></Link>
               </div>
             </div>
           </div>
         </div>
       </header>
+      
 
     </div>
   )

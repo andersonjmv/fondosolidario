@@ -81,7 +81,8 @@ p {
   font-size: 15px; }
   @media (min-width: 576px) {
     p {
-      font-size: 16px; } }
+      font-size: 16px;
+      text-align: justify; } }
 
 a {
   color: #000000;
@@ -2854,7 +2855,7 @@ ul.icon-style-list {
     .banner-section.style-4 .banner-area .section-wrapper .banner-thumb::after {
       display: none; }
   .banner-section.style-5 {
-    background: #f9f2ff; }
+    background: #ffffff; }
     @media (min-width: 992px) {
       .banner-section.style-5 {
         padding: 265px 0 190px; } }
@@ -2907,7 +2908,7 @@ ul.icon-style-list {
       -moz-border-radius: 3px;
       border-radius: 3px; }
       .banner-section.style-5 .banner-area .section-wrapper .banner-thumb .th-shape.th-shape-1 {
-        top: 23%;
+        top: -20%;
         right: 35%;
         animation: lab_sideeffect 15s linear infinite; }
         @media (min-width: 1200px) {

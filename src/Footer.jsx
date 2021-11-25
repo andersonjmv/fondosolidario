@@ -69,6 +69,13 @@ export const Footer = () => {
           <div className="footer-bottom style-2">
             <div className="container">
               <div className="section-wrapper">
+                <p style={{textAlign: "justify"}}>#SerSolidariosNosUne es una iniciativa de Ecopetrol, SierraCol Energy y la Fundación El Alcaraván para apoyar a las comunidades del departamento de Arauca, en especial, a las del área de influencia directa de sus operaciones petroleras, durante la crisis por la propagación de la enfermedad Covid-19. Las compañías, en el marco de este plan solidario, están destinando recursos, al fortalecimiento de la infraestructura médica del Departamento, con dotación de insumos médicos y equipos hospitalarios, así como a las ayudas con elementos de primera necesidad para las comunidades más vulnerables y otras medidas orientadas a la recuperación económica. A esta iniciativa se suma el Fondo Solidario, como un esfuerzo para atraer aportes voluntarios de empleados de SierraCol Energy, de la Fundación El Alcaraván y de otros aliados jurídicos o naturales, con los cuales se contribuya con causas sociales en Arauca y el corregimiento El Centro, Barrancabermeja. Los recursos son administrados y ejecutados directamente por la Fundación El Alcaraván, y apalancados con aportes de la Fundación, SierraCol Energy y el fondo de empleados, Fedeoxy.</p>
+              </div>
+            </div>
+          </div>
+          <div className="footer-bottom style-2">
+            <div className="container">
+              <div className="section-wrapper">
                 <p>© 2021 Todos los derechos reservados.</p>
               </div>
             </div>

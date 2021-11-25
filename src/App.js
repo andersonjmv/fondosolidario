@@ -9,12 +9,12 @@ import { Section } from "./Section";
 function App() {
   return (
     <>
-    <Header />
-    <Banner />
-    <Section />
-    <Footer />
-      
-     
+      <Header />
+      <Banner />
+      <Section />
+      <Footer />
+
+
     </>
   );
 }

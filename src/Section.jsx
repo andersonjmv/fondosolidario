@@ -1,7 +1,65 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
+import { Carousel } from 'react-carousel-minimal';
 
 export const Section = () => {
+
+  const data = [
+    {
+      image: "assets/images/gaitan/1.jpeg",
+    },
+    {
+      image: "assets/images/gaitan/2.jpeg",
+    },
+    {
+      image: "assets/images/gaitan/3.jpg",
+    },
+    {
+      image: "assets/images/gaitan/4.jpeg",
+    },
+    {
+      image: "assets/images/gaitan/5.jpeg",
+    },
+    {
+      image: "assets/images/gaitan/6.JPG",
+    },
+    {
+      image: "assets/images/gaitan/7.JPG",
+    },
+    {
+      image: "assets/images/gaitan/8.JPG",
+    },
+    {
+      image: "assets/images/gaitan/9.JPG",
+    },
+    {
+      image: "assets/images/gaitan/10.JPG",
+    },
+    {
+      image: "assets/images/gaitan/11.JPG",
+    },
+    {
+      image: "assets/images/gaitan/12.JPG",
+    },
+    {
+      image: "assets/images/gaitan/13.JPG",
+    },
+    {
+      image: "assets/images/gaitan/14.JPG",
+    },
+    {
+      image: "assets/images/gaitan/15.JPG",
+    },
+    {
+      image: "assets/images/gaitan/16.JPG",
+    },
+    {
+      image: "assets/images/gaitan/17.JPG",
+    },
+    {
+      image: "assets/images/gaitan/18.JPG",
+    }
+  ];
+
   return (
     <div>
       <div className="service-section style-5 padding-tb" id="mas">
@@ -15,9 +73,13 @@ export const Section = () => {
       <section className="pos-section padding-tb">
         <div className="container">
           <div className="row flex-row-reverse align-items-center">
-            <div className="col-lg-6 col-12">
-              <div className="pos-thmub">
-                <img src="assets/images/jeg.jpg" alt="pos-=thumb" />
+          <div className="col-lg-6 col-12">
+              <div className="video-responsive">
+                <iframe width="530" height="305" src="https://www.youtube.com/embed/unlgu89M5Zo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <br />
+              <div className="video-responsive">
+                <iframe width="530" height="305" src="https://www.youtube.com/embed/unlgu89M5Zo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
             </div>
             <div className="col-lg-6 col-12">
@@ -30,11 +92,9 @@ export const Section = () => {
                   <br />
                   <p>Hoy, los niños y adolescentes reciben clases en un lugar improvisado que ha sido prestado por una iglesia local. Lógicamente, carecen de espacio suficiente, de pupitres, tableros, y otros equipos necesarios para tener una educación de calidad mínima. Estas deficientes condiciones, sumadas al prolongado período durante el cual se suspendieron las clases presenciales debido a la pandemia, sin duda afectan de manera negativa su formación. Por lo que es urgente resolver la situación.</p>
                 </div>
-                <div className="section-wrapper">
-                  <Link to="/2020" className="lab-btn"><span>Informe Campaña 2020</span></Link>
-                </div>
               </div>
             </div>
+           
           </div>
         </div>
       </section>
@@ -42,16 +102,46 @@ export const Section = () => {
       <section className="service-section style-5 padding-tb">
         <div className="container">
           <div className="section-header">
-            <h2>¡Arauca nos necesita! </h2>
+            <h2>La historia de la escuela Jorge Eliecer Gaitán</h2>
+            <p>La iniciativa de construir una escuela para la vereda El Placer se remonta a 1987, cuando el señor Cerveleón Díaz presidía la Junta de Acción Comunal. Don Cerveleón y otros miembros de la comunidad estaban preocupados por la educación de sus hijos y, en ese entonces, la escuela a la que tenían acceso estaba bastante retirada. Por esta razón, decidieron iniciar la gestión con las autoridades respectivas.</p>
             <p>Es hora de volver a unir esfuerzos y retomar el Fondo Solidario, una iniciativa de los empleados y contratistas de SierraCol Energy y de la Fundación El Alcaraván, que iniciamos en 2020 para solidarizarnos con nuestros vecinos.</p>
-          </div>
-          <div className="section-header">
-            <div className="video-responsive">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/8SjF8CyfNM4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
+            <p>El proyecto fue aprobado por la Secretaría de Educación, que entendió la necesidad de la comunidad. La escuela fue construida en un predio donado por la señora Lina Zambrano, y su primer docente, el profe Calle, sólo estuvo allí seis meses pues una enfermedad le obligó a retirarse. Un año después, en 1988, llegó el profe Julio Ramírez, quien tampoco contó con suerte ya que el río Arauca destruyó
+            por primera vez la Jorge Eliecer Gaitán. Durante los siguientes siete años, el profe Julio tuvo que dictar sus clases en una casa de la comunidad, antes de ser trasladado a la vereda Las Bancas. En 1995, lo reemplazó la profesora María Cristina Oviedo Rodríguez, quien hoy continúa al frente de la escuela veredal.</p>
+            <p>En ese año, la comunidad compró un lote al señor Víctor Torres y levantó un ranchón empleando parte de los materiales que se habían recuperado de la primera escuela. El esfuerzo de la comunidad permitió construir un aula, una batería sanitaria, un salón múltiple y una huerta escolar con cultivos de plátano y cacao. Pero una nueva creciente del río ocasionó la pérdida total de las instalaciones educativas.</p>
+            <p>La comunidad tuvo que esperar hasta el 2009 cuando el entonces alcalde de Arauquita, Francisco Vargas, destinó recursos para la reconstrucción. En esta oportunidad se construyeron un salón de clases multigrado, el restaurante escolar, una sala de informática, baterías sanitarias y una planta de tratamiento de agua.</p>
+            <p>Pero el 15 de julio del 2021, la fuerza del río Arauca se llevó la infraestructura, afectando el derecho a la educación de los pequeños de preescolar a quinto grado de primaria, y acabando con un espacio de uso social y comunitario aprovechado por los 200 habitantes de la vereda.</p>
           </div>
         </div>
       </section>
+      <div style={{
+          padding: "0 20px"
+        }}>
+          <Carousel
+            data={data}
+            time={5000}
+            width="850px"
+            height="500px"
+            //captionStyle={captionStyle}
+            radius="10px"
+            slideNumber={true}
+            //slideNumberStyle={slideNumberStyle}
+            captionPosition="bottom"
+            automatic={true}
+            dots={true}
+            pauseIconColor="white"
+            pauseIconSize="40px"
+            slideBackgroundColor="darkgrey"
+            slideImageFit="cover"
+            thumbnails={false}
+            //thumbnailWidth="100px"
+            style={{
+              textAlign: "center",
+              maxWidth: "850px",
+              maxHeight: "500px",
+              margin: "40px auto",
+            }}
+          />
+        </div>
 
     </div>
   )
