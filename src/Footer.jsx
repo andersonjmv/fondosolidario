@@ -84,7 +84,7 @@ export const Footer = () => {
         {/* Footer Section Ending Here */}
       </div>
       {/* scrollToTop start here */}
-      <Link to="/" className="scrollToTop"><i className="icofont-swoosh-up" /><span className="pluse_1" /><span className="pluse_2" /></Link>
+      <a href="#header" className="scrollToTop"><i className="icofont-swoosh-up" /><span className="pluse_1" /><span className="pluse_2" /></a>
       {/* scrollToTop ending here */}
         </div>
     )

@@ -10,205 +10,68 @@ export const C2020 = () => {
             <br />
             <br />
             <br />
-            <section className="market-range-section padding-tb">
+            <br />
+            <section className="pricing-table style-2 padding-tb">
         <div className="container">
-          <div className="top-area">
-            <div className="row align-items-center">
-              <div className="col-lg-6 col-12">
-                <div className="mr-thumb">
-                  <img src="assets/images/recaudo.gif" alt="mr-thumb" />
+          <div className="section-header">
+            <h2>¿Como nos fue en 2020?</h2>
+            <p>De los $237 millones recaudados, el 53% fue aportado por empleados de SierraCol Energy y El Alcaraván, 25% por SierraCol Energy y el 22% restante por empresas contratistas.</p>
+          </div>
+          <div className="section-wrapper">
+            <div className="pricing-item">
+              <div className="pricing-inner">
+                <div className="pricing-head">
+                  <h4>Arauca</h4>
+                  <p>8 causas sociales</p>
                 </div>
-              </div>
-              <div className="col-lg-6 col-12">
-                <div className="section-header style-2">
-                  <h2>¿Como nos fue en 2020?</h2>
-                  <p>De los $237 millones recaudados, el 53% fue aportado por empleados de SierraCol Energy y El Alcaraván, 25% por SierraCol Energy y el 22% restante por empresas contratistas.</p>
-                </div>
-                <div className="section-wrapper">
-                  <div className="skill-bar-wrapper">
-                    <div className="skill-item">
-                      <div className="skill-title">
-                        <div className="left">SierraCol Energy y El Alcaraván</div>
-                        <div className="right">53%</div>
-                      </div>
-                      <div className="skillbar-container clearfix" data-percent="85%">
-                        <div className="skills" style={{background: 'linear-gradient(to top, rgb(35, 204, 136), rgb(142, 207, 53))', width: '85.0001%', overflow: 'hidden'}} />
-                      </div>
-                    </div>
-                    <div className="skill-item">
-                      <div className="skill-title">
-                        <div className="left">SierraCol</div>
-                        <div className="right">25%</div>
-                      </div>
-                      <div className="skillbar-container clearfix" data-percent="70%">
-                        <div className="skills" style={{background: 'linear-gradient(to top, rgb(255, 79, 88), rgb(255, 180, 0))', width: '70%', overflow: 'hidden'}} />
-                      </div>
-                    </div>
-                    <div className="skill-item">
-                      <div className="skill-title">
-                        <div className="left">Empresas contratistas</div>
-                        <div className="right">22%</div>
-                      </div>
-                      <div className="skillbar-container clearfix" data-percent="60%">
-                        <div className="skills" style={{background: 'linear-gradient(to top, rgb(1, 203, 173), rgb(71, 161, 242))', width: '60.0001%', overflow: 'hidden'}} />
-                      </div>
-                    </div>
+                <div className="pricing-body">
+                  <div className="price">
+                    <h2>Causas</h2>
+                    <span>Beneficiados</span>
                   </div>
+                  <div className="price-list">
+                    <ul>
+                      <li>Mujeres microempresarias / 442</li>
+                      <li>Heroes de la salud / 20</li>
+                      <li>Arte, cultura y folclor de Arauca / 9</li>
+                      <li>Mujeres en dialisis / 21</li>
+                      <li>Banco de juguetes / 52</li>
+                      <li>Recicladores de Caño Jesus / 49</li>
+                      <li>Vendedores ambulantes / 350</li>
+                      <li>Artesanos unidos / 7</li>
+                    </ul>
+                  </div>
+                 
                 </div>
               </div>
             </div>
-          </div>
-          <div className="bottom-area">
-            <div className="section-wrapper">
-              
+            <div className="pricing-item">
+              <div className="pricing-inner">
+                <div className="pricing-head">
+                  <h4>Santander</h4>
+                  <p>4 causas sociales</p>
+                </div>
+                <div className="pricing-body">
+                  <div className="price">
+                  <h2>Causas</h2>
+                    <span>Beneficiados</span>
+                  </div>
+                  <div className="price-list">
+                    <ul>
+                      <li>Banco de juguetes / 2278</li>
+                      <li>Huertas familiares para la seguridad alimentariia / 111</li>
+                      <li>Artesanias para la vida</li>
+                      <li>Artesanos unidos</li>
+                    
+                    </ul>
+                  </div>
+                  
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
-            <div className="service-pricing padding-tb" id="causas">
-                {/* Service Section Start Here */}
-                <section className="service-section style-2 style-6">
-                    <div className="container">
-                        <div className="section-header">
-                            <h2>Causas sociales que apoyamos</h2>
-                        </div>
-                        <div className="section-wrapper">
-                            <div className="lab-item">
-                                <div className="lab-inner">
-                                    <div className="lab-thumb">
-                                        <img src="assets/images/service/marketing/01.png" alt="lab-thumb" />
-                                    </div>
-                                    <div className="lab-content">
-                                        <h4>Mujeres Microempresarias</h4>
-                                        <p>442 Beneficiarios en Arauca</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="lab-item">
-                                <div className="lab-inner">
-                                    <div className="lab-thumb">
-                                        <img src="assets/images/service/marketing/02.png" alt="lab-thumb" />
-                                    </div>
-                                    <div className="lab-content">
-                                        <h4>Heroes de la salud</h4>
-                                        <p>20 Beneficiarios en Arauca</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="lab-item">
-                                <div className="lab-inner">
-                                    <div className="lab-thumb">
-                                        <img src="assets/images/service/marketing/03.png" alt="lab-thumb" />
-                                    </div>
-                                    <div className="lab-content">
-                                        <h4>Banco de juguetes</h4>
-                                        <p>2278 Beneficiarios en Santander</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="lab-item">
-                                <div className="lab-inner">
-                                    <div className="lab-thumb">
-                                        <img src="assets/images/service/marketing/04.png" alt="lab-thumb" />
-                                    </div>
-                                    <div className="lab-content">
-                                        <h4>Arte, cultura y floclor de Arauca</h4>
-                                        <p>85 Beneficiarios en Arauca</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="lab-item">
-                                <div className="lab-inner">
-                                    <div className="lab-thumb">
-                                        <img src="assets/images/service/marketing/05.png" alt="lab-thumb" />
-                                    </div>
-                                    <div className="lab-content">
-                                        <h4>Mujeres en dialisis</h4>
-                                        <p>21 Beneficiarios en Arauca</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="lab-item">
-                                <div className="lab-inner">
-                                    <div className="lab-thumb">
-                                        <img src="assets/images/service/marketing/06.png" alt="lab-thumb" />
-                                    </div>
-                                    <div className="lab-content">
-                                        <h4>Asociacion de recicladores de caño jesus</h4>
-                                        <p>49 Beneficiarios en Arauca</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="lab-item">
-                                <div className="lab-inner">
-                                    <div className="lab-thumb">
-                                        <img src="assets/images/service/marketing/01.png" alt="lab-thumb" />
-                                    </div>
-                                    <div className="lab-content">
-                                        <h4>Huertas familiares para la seguridad alimentaria</h4>
-                                        <p>111 Beneficiarios en Santander</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="lab-item">
-                                <div className="lab-inner">
-                                    <div className="lab-thumb">
-                                        <img src="assets/images/service/marketing/01.png" alt="lab-thumb" />
-                                    </div>
-                                    <div className="lab-content">
-                                        <h4>Artesanias para la vida</h4>
-                                        <p>35 Beneficiarios en Santander</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="lab-item">
-                                <div className="lab-inner">
-                                    <div className="lab-thumb">
-                                        <img src="assets/images/service/marketing/01.png" alt="lab-thumb" />
-                                    </div>
-                                    <div className="lab-content">
-                                        <h4>Vendedores ambulantes</h4>
-                                        <p>350 Beneficiarios en Arauca</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="lab-item">
-                                <div className="lab-inner">
-                                    <div className="lab-thumb">
-                                        <img src="assets/images/service/marketing/01.png" alt="lab-thumb" />
-                                    </div>
-                                    <div className="lab-content">
-                                        <h4>Academia Geek</h4>
-                                        <p>11 Beneficiarios en Arauca</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="lab-item">
-                                <div className="lab-inner">
-                                    <div className="lab-thumb">
-                                        <img src="assets/images/service/marketing/01.png" alt="lab-thumb" />
-                                    </div>
-                                    <div className="lab-content">
-                                        <h4>Artesanos unidos</h4>
-                                        <p>7 Beneficiarios en Arauca</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="lab-item">
-                                <div className="lab-inner">
-                                    <div className="lab-thumb">
-                                        <img src="assets/images/service/marketing/01.png" alt="lab-thumb" />
-                                    </div>
-                                    <div className="lab-content">
-                                        <h4>Vereda chaparrito</h4>
-                                        <p>pendiente</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            </div>
             <Footer />
         </div>
     )

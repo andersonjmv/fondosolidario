@@ -4,21 +4,13 @@ import { Link } from 'react-router-dom';
 export const Header = () => {
   return (
     <div>
-       <div id="myModal" class="modal fade" role="dialog">
+      <div id="myModal" class="modal fade" role="dialog">
         <div class="modal-dialog">
           <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal">&times;</button>
-              <h4 class="modal-title">Modal Header</h4>
-            </div>
-            <div class="modal-body">
-              <p>Some text in the modal.</p>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <div className="modal-body">
+              <img src="assets/images/modal/Flyer_1.jpg" />
             </div>
           </div>
-
         </div>
       </div>
       <div className="mobile-menu pos-bg">
@@ -41,7 +33,7 @@ export const Header = () => {
                   <ul>
                     <li><a href="about.html">About Us</a></li>
                     <li>Services
-                              <ul>
+                      <ul>
                         <li><a href="service.html">Service</a></li>
                         <li><a href="service-single.html">Service Single</a></li>
                       </ul>
@@ -70,7 +62,7 @@ export const Header = () => {
         <div className="header-area">
           <div className="container">
             <div className="primary-menu">
-              
+
               <div className="main-area">
                 <div className="main-menu">
                   <ul>
@@ -80,10 +72,13 @@ export const Header = () => {
                     <li><a href="#causas">Causas sociales</a>
 
                     </li>
-                    <li><Link to="/2020">¿Cómo vamos?</Link>
+                    <li><Link to="/2020">Informe 2020</Link>
 
                     </li>
-                     <li><Link to="/contacto">Contáctenos</Link></li>
+                    <li><Link to="/2020">¿Como donar?</Link>
+
+                    </li>
+                    <li><Link to="/contacto">Contáctenos</Link></li>
                   </ul>
                 </div>
 
@@ -95,7 +90,7 @@ export const Header = () => {
           </div>
         </div>
       </header>
-      
+
 
     </div>
   )

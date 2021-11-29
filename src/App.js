@@ -8,7 +8,7 @@ import { Section } from "./Section";
 
 function App() {
   return (
-    <>
+    <>   
       <Header />
       <Banner />
       <Section />

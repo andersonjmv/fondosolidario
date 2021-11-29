@@ -1,31 +1,12 @@
 import React from 'react'
 import { Footer } from './Footer'
 import { Link } from 'react-router-dom';
+import { Header2 } from './Header2';
 
 export const Contact = () => {
     return (
         <div>
-             <header className="header-section transparent-header pos-bg" id="header">
-                <div className="header-area">
-                    <div className="container">
-                        <div className="primary-menu">
-                            <div className="logo">
-                                <a href="#header"><img src="assets/images/logo/pos.png" alt="logo" /></a>
-                            </div>
-                            <div className="main-area">
-                                <div className="main-menu">
-                                    <ul>
-                                        <Link to="/"><li>Inicio</li></Link>
-                                        
-                                        <Link to="/contacto"> <li>Contáctenos</li></Link>
-                                    </ul>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </header>
+         <Header2 />
             <section className="contact-us padding-tb" id="contact">
                 <div className="container">
                     <div className="row">

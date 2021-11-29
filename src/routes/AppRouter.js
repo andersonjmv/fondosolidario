@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import App from '../App'
 import { C2020 } from '../C2020'
 import { Contact } from '../Contact'
+import { Section } from '../Section'
 
 
 export const AppRouter = () => {

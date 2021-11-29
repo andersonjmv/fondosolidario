@@ -34,12 +34,10 @@ export const Header2 = () => {
             <header className="header-section transparent-header pos-bg" id="header">
                 <div className="header-area">
                     <div className="container">
-                        <div className="primary-menu">
-                            <div className="logo">
-                                <a href="#header"><img src="assets/images/logo.png" alt="logo" /></a>
-                            </div>
+                        <div className="primary-menu ">
+                            
                             <div className="main-area">
-                                <div className="main-menu">
+                                <div className="main-menu shift">
                                     <ul>
                                         <li><Link to="/">Inicio</Link>
 
@@ -49,6 +47,9 @@ export const Header2 = () => {
                                     </ul>
                                 </div>
 
+                            </div>
+                            <div className="logo">
+                                <a href="#header"><img src="assets/images/logo.png" alt="logo" /></a>
                             </div>
                         </div>
                     </div>
