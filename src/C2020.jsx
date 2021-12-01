@@ -4,20 +4,63 @@ import { Header2 } from './Header2'
 
 
 export const C2020 = () => {
-    return (
-        <div>
-            <Header2 />
-            <br />
-            <br />
-            <br />
-            <br />
-            <section className="pricing-table style-2 padding-tb">
+  return (
+    <div>
+      <Header2 />
+      <br />
+      <br />
+      <br />
+      <br />
+      <section className="market-range-section padding-tb">
         <div className="container">
-          <div className="section-header">
-            <h2>¿Como nos fue en 2020?</h2>
-            <p>De los $237 millones recaudados, el 53% fue aportado por empleados de SierraCol Energy y El Alcaraván, 25% por SierraCol Energy y el 22% restante por empresas contratistas.</p>
+          <div className="top-area">
+            <div className="row align-items-center">
+             
+              <div className="col">
+                <div className="section-header style-2">
+                  <h2>¿Cómo nos fue?</h2>
+                </div>
+                <div className="section-wrapper">
+                  <div className="skill-bar-wrapper">
+                    <div className="skill-item">
+                      <div className="skill-title">
+                        <div className="left">Empleados de SierraCol Energy y El Alcaraván</div>
+                        <div className="right"><h5>53%</h5></div>
+                      </div>
+                      <div className="skillbar-container clearfix" data-percent="85%">
+                        <div className="skills" style={{background: 'linear-gradient(to top, rgb(255, 79, 88), rgb(255, 180, 0))', width: '85%', overflow: 'hidden'}} />
+                      </div>
+                    </div>
+                    <div className="skill-item">
+                      <div className="skill-title">
+                        <div className="left">SierraCol Energy</div>
+                        <div className="right"><h5>25%</h5></div>
+                      </div>
+                      <div className="skillbar-container clearfix" data-percent="70%">
+                        <div className="skills" style={{background: 'linear-gradient(to top, rgb(255, 79, 88), rgb(255, 180, 0))', width: '70%', overflow: 'hidden'}} />
+                      </div>
+                    </div>
+                    <div className="skill-item">
+                      <div className="skill-title">
+                        <div className="left">Empresas contratistas</div>
+                        <div className="right"><h5>22%</h5></div>
+                      </div>
+                      <div className="skillbar-container clearfix" data-percent="60%">
+                        <div className="skills" style={{background: 'linear-gradient(to top, rgb(255, 79, 88), rgb(255, 180, 0))', width: '60.0001%', overflow: 'hidden'}} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
+          
+        </div>
+      </section>
+      <section className="pricing-table style-2 padding-tb">
+        <div className="container">
           <div className="section-wrapper">
+
             <div className="pricing-item">
               <div className="pricing-inner">
                 <div className="pricing-head">
@@ -41,7 +84,7 @@ export const C2020 = () => {
                       <li>Artesanos unidos / 7</li>
                     </ul>
                   </div>
-                 
+
                 </div>
               </div>
             </div>
@@ -53,26 +96,26 @@ export const C2020 = () => {
                 </div>
                 <div className="pricing-body">
                   <div className="price">
-                  <h2>Causas</h2>
+                    <h2>Causas</h2>
                     <span>Beneficiados</span>
                   </div>
                   <div className="price-list">
                     <ul>
                       <li>Banco de juguetes / 2278</li>
                       <li>Huertas familiares para la seguridad alimentariia / 111</li>
-                      <li>Artesanias para la vida</li>
-                      <li>Artesanos unidos</li>
-                    
+                      <li>Artesanias para la vida / 20</li>
+                      <li>Artesanos unidos / 7</li>
+
                     </ul>
                   </div>
-                  
+
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-            <Footer />
-        </div>
-    )
+      <Footer />
+    </div>
+  )
 }

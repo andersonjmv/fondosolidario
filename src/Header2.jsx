@@ -20,10 +20,6 @@ export const Header2 = () => {
                         <div className="mobile-menu-area-inner">
                             <ul>
                                 <li><a href="#header">Inicio</a>  </li>
-
-                                <li><strong><Link to='/causa'>Causas sociales</Link></strong>
-
-                                </li>
                             </ul>
                         </div>
                     </div>
@@ -35,15 +31,13 @@ export const Header2 = () => {
                 <div className="header-area">
                     <div className="container">
                         <div className="primary-menu ">
-                            
+
                             <div className="main-area">
                                 <div className="main-menu shift">
                                     <ul>
                                         <li><Link to="/">Inicio</Link>
 
                                         </li>
-                                        <li><a href="#causas">Causas sociales</a></li>
-
                                     </ul>
                                 </div>
 

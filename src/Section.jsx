@@ -62,29 +62,45 @@ export const Section = () => {
 
   return (
     <div>
-      <div className="service-section style-5 padding-tb" id="mas">
-        <div className="section-header">
-          <h2>¿Qué es el Fondo Solidario?</h2>
-          <p>El Fondo Solidario es una iniciativa de los trabajadores y contratistas de SierraCol Energy y de la Fundación El Alcaraván para solidarizarnos con nuestros vecinos. Esta iniciativa es administrada por la Fundación El Alcaraván.</p>
-          <p>La primera campaña del Fondo Solidario se llevó a cabo en 2020, motivada por la necesidad de apoyar a las personas y comunidades más afectados por las consecuencias económicas, sociales y de salud de la pandemia del COVID-19. Gracias a la empatía, solidaridad y generosidad de los empleados de SierraCol y de la Fundación, de la Compañía y de algunos contratistas, el Fondo Solidario recaudó $237 millones. Los recursos fueron convertidos en ayudas materiales que fueron entregadas a doce causas sociales en Arauca y en el corregimiento El Centro, en Barrancabermeja, Santander.</p>
-          <p>De los $237 millones recaudados, el 53% fue aportado por empleados de SierraCol Energy y El Alcaraván, 25% por SierraCol Energy y el 22% restante por empresas contratistas.</p>
-        </div>
-      </div>
-      <section className="pos-section padding-tb">
+      <section className="pos-section bgc-3 padding-tb" id="mas">
         <div className="container">
-          <div className="row flex-row-reverse align-items-center">
-          <div className="col-lg-6 col-12">
-              <div className="video-responsive">
-                <iframe width="530" height="305" src="https://www.youtube.com/embed/unlgu89M5Zo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              </div>
-              <br />
-              <div className="video-responsive">
-                <iframe width="530" height="305" src="https://www.youtube.com/embed/unlgu89M5Zo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div className="row align-items-center">
+            <div className="col-lg-6 col-12">
+              <div className="pos-thmub">
+                <img src="assets/images/collage.png" alt="pos-=thumb" />
               </div>
             </div>
             <div className="col-lg-6 col-12">
               <div className="pos-content-area">
+                <div className="section-header style-2">
+                  <h2>¿Qué es el Fondo Solidario?</h2>
+                </div>
+                <div className="section-wrapper">
+                  <p>El Fondo Solidario es una iniciativa de los trabajadores y contratistas de SierraCol Energy y de la Fundación El Alcaraván para solidarizarnos con nuestros vecinos. Esta iniciativa es administrada por la Fundación El Alcaraván.</p>
+                  <p>La primera campaña del Fondo Solidario se llevó a cabo en 2020, motivada por la necesidad de apoyar a las personas y comunidades más afectados por las consecuencias económicas, sociales y de salud de la pandemia del COVID-19. Gracias a la empatía, solidaridad y generosidad de los empleados de SierraCol y de la Fundación, de la Compañía y de algunos contratistas, el Fondo Solidario recaudó $237 millones. Los recursos fueron convertidos en ayudas materiales que fueron entregadas a doce causas sociales en Arauca y en el corregimiento El Centro, en Barrancabermeja, Santander.</p>
+                  <p>De los $237 millones recaudados, el 53% fue aportado por empleados de SierraCol Energy y El Alcaraván, 25% por SierraCol Energy y el 22% restante por empresas contratistas.</p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="pos-section padding-tb" id="causas">
+        <div className="container">
+          <div className="row flex-row-reverse align-items-center">
+            <div className="col-lg-6 col-10">
+              <div className="video-responsive">
+                <iframe width="530" height="305" src="https://www.youtube.com/embed/unlgu89M5Zo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullscreen></iframe>
+              </div>
+              <br />
+
+            </div>
+            <div className="col-lg-6 col-12">
+              <div className="pos-content-area">
                 <div className="section-header style-3">
+                  <h3>Nuestra Causa</h3>
                   <h3>Unidos nuevamente por Arauca en 2021</h3>
                   <p>Para la campaña de 2021, hemos escogido una causa social que nos inspira: reconstruir la escuela Jorge Eliecer Gaitán, en la vereda El Placer.</p>
                   <br />
@@ -94,52 +110,89 @@ export const Section = () => {
                 </div>
               </div>
             </div>
-           
+
           </div>
         </div>
       </section>
 
-      <section className="service-section style-5 padding-tb">
+      <section className="pos-section bgc-3 padding-tb" id="mas">
         <div className="container">
-          <div className="section-header">
-            <h2>La historia de la escuela Jorge Eliecer Gaitán</h2>
-            <p>La iniciativa de construir una escuela para la vereda El Placer se remonta a 1987, cuando el señor Cerveleón Díaz presidía la Junta de Acción Comunal. Don Cerveleón y otros miembros de la comunidad estaban preocupados por la educación de sus hijos y, en ese entonces, la escuela a la que tenían acceso estaba bastante retirada. Por esta razón, decidieron iniciar la gestión con las autoridades respectivas.</p>
-            <p>Es hora de volver a unir esfuerzos y retomar el Fondo Solidario, una iniciativa de los empleados y contratistas de SierraCol Energy y de la Fundación El Alcaraván, que iniciamos en 2020 para solidarizarnos con nuestros vecinos.</p>
-            <p>El proyecto fue aprobado por la Secretaría de Educación, que entendió la necesidad de la comunidad. La escuela fue construida en un predio donado por la señora Lina Zambrano, y su primer docente, el profe Calle, sólo estuvo allí seis meses pues una enfermedad le obligó a retirarse. Un año después, en 1988, llegó el profe Julio Ramírez, quien tampoco contó con suerte ya que el río Arauca destruyó
-            por primera vez la Jorge Eliecer Gaitán. Durante los siguientes siete años, el profe Julio tuvo que dictar sus clases en una casa de la comunidad, antes de ser trasladado a la vereda Las Bancas. En 1995, lo reemplazó la profesora María Cristina Oviedo Rodríguez, quien hoy continúa al frente de la escuela veredal.</p>
-            <p>En ese año, la comunidad compró un lote al señor Víctor Torres y levantó un ranchón empleando parte de los materiales que se habían recuperado de la primera escuela. El esfuerzo de la comunidad permitió construir un aula, una batería sanitaria, un salón múltiple y una huerta escolar con cultivos de plátano y cacao. Pero una nueva creciente del río ocasionó la pérdida total de las instalaciones educativas.</p>
-            <p>La comunidad tuvo que esperar hasta el 2009 cuando el entonces alcalde de Arauquita, Francisco Vargas, destinó recursos para la reconstrucción. En esta oportunidad se construyeron un salón de clases multigrado, el restaurante escolar, una sala de informática, baterías sanitarias y una planta de tratamiento de agua.</p>
-            <p>Pero el 15 de julio del 2021, la fuerza del río Arauca se llevó la infraestructura, afectando el derecho a la educación de los pequeños de preescolar a quinto grado de primaria, y acabando con un espacio de uso social y comunitario aprovechado por los 200 habitantes de la vereda.</p>
+          <div className="row align-items-center">
+            <div className="col-lg-6 col-12">
+              <div className="pos-thmub">
+                <div style={{
+                  padding: "0 20px"
+                }}>
+                  <Carousel
+                    data={data}
+                    time={3000}
+                    width="850px"
+                    height="500px"
+                    radius="10px"
+                    slideNumber={true}
+                    captionPosition="bottom"
+                    automatic={true}
+                    dots={true}
+                    pauseIconColor="white"
+                    pauseIconSize="40px"
+                    slideBackgroundColor="darkgrey"
+                    slideImageFit="cover"
+                    thumbnails={false}
+                    style={{
+                      textAlign: "center",
+                      maxWidth: "850px",
+                      maxHeight: "500px",
+                      margin: "40px auto",
+                    }}
+                  />
+
+
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6 col-12">
+              <div className="pos-content-area">
+                <div className="section-header style-2">
+                  <h2>La historia de la escuela</h2>
+                  <h2>Jorge Eliecer Gaitán</h2>
+                </div>
+                <div className="section-wrapper">
+                  <p>La iniciativa de construir una escuela para la vereda El Placer se remonta a 1987, cuando el señor Cerveleón Díaz presidía la Junta de Acción Comunal. Don Cerveleón y otros miembros de la comunidad estaban preocupados por la educación de sus hijos y, en ese entonces, la escuela a la que tenían acceso estaba bastante retirada. Por esta razón, decidieron iniciar la gestión con las autoridades respectivas.</p>
+                  <p>Es hora de volver a unir esfuerzos y retomar el Fondo Solidario, una iniciativa de los empleados y contratistas de SierraCol Energy y de la Fundación El Alcaraván, que iniciamos en 2020 para solidarizarnos con nuestros vecinos.</p>
+                  <p>El proyecto fue aprobado por la Secretaría de Educación, que entendió la necesidad de la comunidad. La escuela fue construida en un predio donado por la señora Lina Zambrano, y su primer docente, el profe Calle, sólo estuvo allí seis meses pues una enfermedad le obligó a retirarse. Un año después, en 1988, llegó el profe Julio Ramírez, quien tampoco contó con suerte ya que el río Arauca destruyó
+                    por primera vez la Jorge Eliecer Gaitán. Durante los siguientes siete años, el profe Julio tuvo que dictar sus clases en una casa de la comunidad, antes de ser trasladado a la vereda Las Bancas. En 1995, lo reemplazó la profesora María Cristina Oviedo Rodríguez, quien hoy continúa al frente de la escuela veredal.</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
-      <div style={{
-          padding: "0 20px"
-        }}>
-          <Carousel
-            data={data}
-            time={2000}
-            width="850px"
-            height="500px"
-            radius="10px"
-            slideNumber={true}
-            captionPosition="bottom"
-            automatic={true}
-            dots={true}
-            pauseIconColor="white"
-            pauseIconSize="40px"
-            slideBackgroundColor="darkgrey"
-            slideImageFit="cover"
-            thumbnails={false}
-            style={{
-              textAlign: "center",
-              maxWidth: "850px",
-              maxHeight: "500px",
-              margin: "40px auto",
-            }}
-          />
+      <section className="pos-section bgc-3 padding-tb" id="mas">
+        <div className="container">
+          <div className="row align-items-center">
+
+            <div className="col-lg-6 col-12">
+              <div className="pos-content-area">
+                <div className="section-wrapper">
+                  <p>En ese año, la comunidad compró un lote al señor Víctor Torres y levantó un ranchón empleando parte de los materiales que se habían recuperado de la primera escuela. El esfuerzo de la comunidad permitió construir un aula, una batería sanitaria, un salón múltiple y una huerta escolar con cultivos de plátano y cacao. Pero una nueva creciente del río ocasionó la pérdida total de las instalaciones educativas.</p>
+                  <p>La comunidad tuvo que esperar hasta el 2009 cuando el entonces alcalde de Arauquita, Francisco Vargas, destinó recursos para la reconstrucción. En esta oportunidad se construyeron un salón de clases multigrado, el restaurante escolar, una sala de informática, baterías sanitarias y una planta de tratamiento de agua.</p>
+                  <p>Pero el 15 de julio del 2021, la fuerza del río Arauca se llevó la infraestructura, afectando el derecho a la educación de los pequeños de preescolar a quinto grado de primaria, y acabando con un espacio de uso social y comunitario aprovechado por los 200 habitantes de la vereda.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6 col-12">
+              <div className="pos-thmub">
+                <img src="assets/images/coljeg.jpeg" alt="colegio" />
+              </div>
+            </div>
+          </div>
         </div>
+      </section>
+     
+
 
     </div>
   )
 }
+
+

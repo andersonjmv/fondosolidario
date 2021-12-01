@@ -1,3 +1,4 @@
+@import "compass/css3";
 
 * {
   margin: 0;
@@ -124,6 +125,14 @@ img {
   height: auto;
   max-width: 100%; }
 
+.img-banner {
+  height: auto;
+  width: 700px;
+  margin-top: 150px;
+  border-radius: 30px;
+ }
+
+
 input {
   width: 100%;
   margin-bottom: 15px;
@@ -201,7 +210,7 @@ textarea {
       margin-bottom: 0; }
       @media (min-width: 992px) {
         .section-header.style-3 p {
-          max-width: 450px; } }
+          max-width: 550px; } }
 
 /* @@@@@@@@@@@@@  lab Item Start Here  @@@@@@@@@@@@@@ */
 .lab-item {
@@ -879,7 +888,7 @@ textarea {
           box-shadow: none; }
           .paginations ul li a.dot:hover {
             background: transparent;
-            color: #696969; }
+            color: #ffffff; }
 
 /*@@@@@@@@@@@@@@   scocial-media Start Here  @@@@@@@@@@@@@@@@@*/
 .scocial-media {
@@ -2873,7 +2882,7 @@ ul.icon-style-list {
           .banner-section.style-5 .pos-banner-shape .pos-shape-1 {
             left: 0; } }
       .banner-section.style-5 .pos-banner-shape .pos-shape-2 {
-        right: -22%; }
+        right: 0%; }
         @media (min-width: 1440px) {
           .banner-section.style-5 .pos-banner-shape .pos-shape-2 {
             right: 0; } }
@@ -3677,11 +3686,11 @@ ul.icon-style-list {
     transform: translateY(0px);
     box-shadow: none; }
   .about-section.style-4 .section-wrapper .lab-item .lab-inner .lab-thumb {
-    background: linear-gradient(to top, #f68838, #ffb400); }
+    background: #F68838; }
 .about-section.style-4 .section-wrapper .lab-item:nth-child(2) .lab-inner .lab-thumb {
-  background: linear-gradient(to top, #e85aca, #fc4e65); }
+  background: #F68838; }
 .about-section.style-4 .section-wrapper .lab-item:nth-child(3) .lab-inner .lab-thumb {
-  background: linear-gradient(to top, #5f51b5, #ce62fd); }
+  background: #F68838; }
 .about-section.style-5 .section-header h2 {
   color: #000000; }
   @media (min-width: 992px) {
@@ -5696,13 +5705,13 @@ ul.icon-style-list {
     margin: 1px;
     box-shadow: 0 0 3px rgba(136, 136, 136, 0.1); }
     .faq-section .section-wrapper .accordion li:nth-child(2) .accordion-list .right h6, .faq-section .section-wrapper .accordion li:nth-child(8) .accordion-list .right h6 {
-      color: #ff6347; }
+      color: #F68838; }
     .faq-section .section-wrapper .accordion li:nth-child(2) .accordion-list .left .icon::after, .faq-section .section-wrapper .accordion li:nth-child(2) .accordion-list .left .icon::before, .faq-section .section-wrapper .accordion li:nth-child(8) .accordion-list .left .icon::after, .faq-section .section-wrapper .accordion li:nth-child(8) .accordion-list .left .icon::before {
-      background: #ff6347; }
+      background: #F68838; }
     .faq-section .section-wrapper .accordion li:nth-child(3) .accordion-list .right h6, .faq-section .section-wrapper .accordion li:nth-child(9) .accordion-list .right h6 {
-      color: #01cbad; }
+      color: #F68838; }
     .faq-section .section-wrapper .accordion li:nth-child(3) .accordion-list .left .icon::after, .faq-section .section-wrapper .accordion li:nth-child(3) .accordion-list .left .icon::before, .faq-section .section-wrapper .accordion li:nth-child(9) .accordion-list .left .icon::after, .faq-section .section-wrapper .accordion li:nth-child(9) .accordion-list .left .icon::before {
-      background: #01cbad; }
+      background: #F68838; }
     .faq-section .section-wrapper .accordion li:nth-child(4) .accordion-list .right h6, .faq-section .section-wrapper .accordion li:nth-child(10) .accordion-list .right h6 {
       color: #e85aca; }
     .faq-section .section-wrapper .accordion li:nth-child(4) .accordion-list .left .icon::after, .faq-section .section-wrapper .accordion li:nth-child(4) .accordion-list .left .icon::before, .faq-section .section-wrapper .accordion li:nth-child(10) .accordion-list .left .icon::after, .faq-section .section-wrapper .accordion li:nth-child(10) .accordion-list .left .icon::before {
@@ -5733,7 +5742,7 @@ ul.icon-style-list {
           width: 100%;
           height: 100%; }
           .faq-section .section-wrapper .accordion li .accordion-list .left .icon::after, .faq-section .section-wrapper .accordion li .accordion-list .left .icon::before {
-            background: #38cd78;
+            background: #F68838;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%); }
@@ -5747,7 +5756,7 @@ ul.icon-style-list {
         width: calc(100% - 40px); }
         .faq-section .section-wrapper .accordion li .accordion-list .right h6 {
           margin: 0;
-          color: #38cd78; }
+          color: #F68838; }
     .faq-section .section-wrapper .accordion li .accordion-answer {
       display: none; }
       .faq-section .section-wrapper .accordion li .accordion-answer p {
@@ -7376,3 +7385,73 @@ ul.icon-style-list {
   visibility: visible;
   height: 100%;
 }
+
+/* Termometro */
+
+.donation-meter {
+  margin-left: 30px;
+  width: 100px;
+}
+.donation-meter .glass {
+  background: #e5e5e5;
+  border-radius: 100px 100px 0 0;
+  display: block;
+  height: 300px;
+  margin: 0 35px 10px;
+  padding: 5px;
+  position: relative;
+  width: 20px;
+}
+.donation-meter .amount {
+  background: #f34e54;
+  border-radius: 100px;
+  display: block;
+  width: 20px;
+  position: absolute;
+  bottom: 5px;
+}
+.donation-meter strong {
+  display: block;
+  text-align: center;
+}
+.donation-meter .goal {
+  font-size: 30px;
+}
+.donation-meter .total {
+  font-size: 16px;
+  position: absolute;
+  right: 35px;
+}
+.bulb {
+  background: #e5e5e5;
+  border-radius: 100px;
+  display: block;
+  height: 50px;
+  margin: 0 35px 10px;
+  padding: 5px;
+  position: relative;
+  top: -20px;
+  right: 15px;
+  width: 50px;
+}
+.bulb .red-circle {
+  background: #f34e54;
+  border-radius: 100px;
+  display: block;
+  height: 50px;
+  width: 50px;
+}
+.bulb .filler {
+  background: #f34e54;
+  border-radius: 100px 100px 0 0;
+  display: block;
+  height: 30px;
+  width: 20px;
+  position: relative;
+  top: -65px;
+  right: -15px;
+  z-index: 30;
+}
+
+/* termometro*/
+
