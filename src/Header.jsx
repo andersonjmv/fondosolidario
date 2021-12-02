@@ -56,12 +56,10 @@ export const Header = () => {
                     <li><a href="#causas">Causa social</a>
 
                     </li>
-                    <li><Link to="/2020">Informe 2020</Link>
-
-                    </li>
                     <li><a href="#donar">¿Cómo donar?</a></li>
                     <li><a href="#vamos">¿Cómo vamos?</a></li>
                     <li><Link to="/contacto">Contáctenos</Link></li>
+                    <li><Link to="/2020">Informe 2020</Link></li>
                   </ul>
                 </div>
 

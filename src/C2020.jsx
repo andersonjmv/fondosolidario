@@ -19,6 +19,9 @@ export const C2020 = () => {
               <div className="col">
                 <div className="section-header style-2">
                   <h2>¿Cómo nos fue?</h2>
+                  <p>Las generosas contribuciones de empleados y contratistas en el 2020 fueron destinadas a apoyar 12 causas sociales, beneficiando a 3.568 personas del departamento de Arauca y el corregimiento El Centro, en Santander.</p>
+                  <p>Las personas y familias más necesitadas recibieron mercados; el personal de salud, que enfrentaba el riesgo más alto de contraer COVID en esos primeros meses de la pandemia, pudo contar con elementos de protección personal. También, entregamos insumos a dos asociaciones de artesanos, cuya actividad económica había sido interrumpida por la pandemia; y en dos escuelas rurales distribuimos juguetes didácticos para los pequeños que no podían regresar a clases presenciales. La gran mayoría de insumos, materiales y alimentos fueron comprados a proveedores de ambas regiones, para estimular las economías locales.</p>
+                  <p>De la meta de los 400 millones COP, se reacaudaron 237 millones COP y sus aportes fueron de la siguiente manera:</p>
                 </div>
                 <div className="section-wrapper">
                   <div className="skill-bar-wrapper">

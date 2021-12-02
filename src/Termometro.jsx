@@ -7,8 +7,8 @@ export const Termometro = () => {
             <section className="pos-section bgc-3 padding-tb" id="vamos">
                 <div className="container">
                 <div className="section-header style-2">
-                  <h2 className="text-center">Termometro 2021</h2>
-                  <p className="text-center">La meta son $200.000.000</p>
+                  <h2 className="text-center">¿Cómo vamos?</h2>
+                  <p className="text-center">La meta son $200.000.000 COP</p>
                   <br />
                 </div>
                     <ProgressBar

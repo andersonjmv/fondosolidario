@@ -22,7 +22,7 @@ export const Donar = () => {
                           <div className="icon" />
                         </div>
                         <div className="right">
-                          <h6>Cuenta corriente El Alcaraván</h6>
+                          <h6>Cuenta corriente Fundación El Alcaraván</h6>
                         </div>
                       </div>
                       <div className="accordion-answer">
@@ -35,7 +35,7 @@ export const Donar = () => {
                           <div className="icon" />
                         </div>
                         <div className="right">
-                          <h6>Cuenta corriente fondo de empleados de SierraCol</h6>
+                          <h6>Cuenta corriente fondo de empleados de SierraCol Energy</h6>
                         </div>
                       </div>
                       <div className="accordion-answer">
@@ -48,7 +48,7 @@ export const Donar = () => {
                           <div className="icon" />
                         </div>
                         <div className="right">
-                          <h6>Descuento de nomina</h6>
+                          <h6>Descuento de nómina</h6>
                         </div>
                       </div>
                       <div className="accordion-answer">

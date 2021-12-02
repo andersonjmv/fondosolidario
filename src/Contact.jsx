@@ -39,7 +39,7 @@ export const Contact = () => {
                                     <ul class="list-group">
                                         <li class="list-group-item">+57 3168301982</li>
                                         <li class="list-group-item">+57 3202285804 </li>
-                                        <li class="list-group-item">(7) 8856875 Ext 162</li>
+                                        <li class="list-group-item">(607) 8856875</li>
                                     </ul>
                                 </div>
                             </div>
