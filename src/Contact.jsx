@@ -6,7 +6,7 @@ export const Contact = () => {
     return (
         <div>
             <Header2 />
-            <section className="about-section style-2 style-3 style-4 padding-tb">
+            <section className="about-section style-2 style-4 padding-tb">
                 <div className="container">
                     <div className="section-header">
                         <br /><br />
@@ -20,11 +20,11 @@ export const Contact = () => {
                                 </div>
                                 <div className="lab-content">
                                     <h4>Dirección</h4>
-                                    <ol class="list-group list-group-numbered">
+                                    
                                         <li class="list-group-item">Calle 18 N° 43 - 65 Sector Playitas Arauca (Arauca)</li>
                                         <li class="list-group-item">Calle 77a No. 11 - 32 Bogotá, D.C.</li>
 
-                                    </ol>
+                                   
 
                                 </div>
                             </div>
@@ -36,11 +36,11 @@ export const Contact = () => {
                                 </div>
                                 <div className="lab-content">
                                     <h4>Números de teléfonos</h4>
-                                    <ul class="list-group">
+                                    
                                         <li class="list-group-item">+57 3168301982</li>
                                         <li class="list-group-item">+57 3202285804 </li>
                                         <li class="list-group-item">(607) 8856875</li>
-                                    </ul>
+                                   
                                 </div>
                             </div>
                         </div>
@@ -51,11 +51,11 @@ export const Contact = () => {
                                 </div>
                                 <div className="lab-content">
                                     <h4>Web</h4>
-                                   <ul class="list-group">
-                                        <li class="list-group-item">Email: fondosolidario@alcaravan.org.co</li>
-                                        <li class="list-group-item">Sitio Web: www.alcaravan.org.co</li>
+                                  
+                                        <li class="list-group-item">fondosolidario@alcaravan.org.co</li>
+                                        <li class="list-group-item">www.alcaravan.org.co</li>
                                         
-                                    </ul>
+                                    
                                 </div>
                             </div>
                         </div>

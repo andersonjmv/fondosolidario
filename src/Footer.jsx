@@ -54,9 +54,9 @@ export const Footer = () => {
                         </div>
                         <div className="content">
                           <ul>
-                            <li><a href="https://www.facebook.com/FunAlcaraván"><i className="icofont-facebook" />Facebook</a></li>
-                            <li><a href="https://www.instagram.com/FundaciónelAlcaraván/?hl=es"><i className="icofont-instagram" />Instagram</a></li>
-                            <li><a href="https://www.youtube.com/user/FundaciónAlcaraván"><i className="icofont-youtube" />YouTube</a></li>
+                            <li><a href="https://www.facebook.com/Funalcaravan" target="_blank" rel="noopener noreferrer"><i className="icofont-facebook" />Facebook</a></li>
+                            <li><a href="https://www.instagram.com/fundacionelalcaravan/?hl=es" target="_blank" rel="noopener noreferrer"><i className="icofont-instagram" />Instagram</a></li>
+                            <li><a href="https://www.youtube.com/user/FundacionAlcaravan" target="_blank" rel="noopener noreferrer"><i className="icofont-youtube" />YouTube</a></li>
                           </ul>
                         </div>
                       </div>

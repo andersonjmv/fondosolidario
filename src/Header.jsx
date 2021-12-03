@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 export const Header = () => {
   return (
     <div>
+
       <div id="myModal" class="modal fade" role="dialog">
         <div class="modal-dialog">
           <div class="modal-content">
